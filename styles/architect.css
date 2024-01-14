@@ -1,0 +1,170 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+color: black;
+font-size: 20px;
+
+}
+header{
+    margin:0 40px ;
+    
+}
+    nav{
+        display: flex;
+    }
+
+
+nav h3{flex:70%;}
+
+nav ul{
+    flex: 30%;
+    list-style-type: none;
+
+}
+nav li {
+    float:left;
+    padding: 15px;
+}
+
+.banner-title{
+    text-align: center;
+    padding:0px 200px ;
+    font: size 4rem; 
+}
+
+.banner{
+    margin: 40px ; 
+    text-align: center;
+}
+
+.main-banner-title{
+    padding: 0px  100px; 
+}
+
+.banner-description{
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.btn-primary{
+    background-color: brown;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+.banner-img{
+    margin: 40px;
+    
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
+.main-body{
+display: flex;
+padding: 40px;
+}
+
+.main-body-left{
+    flex: 50%;
+}
+
+.main-body-right{
+    flex: 50%;
+ 
+}
+
+.main-body-left img{
+    padding: 10px;
+    width: 30%;
+    height: auto;
+}
+
+.emg-continar{    
+    background-image:url("../images/architect.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-color: blueviolet;
+}
+
+.year-text{
+    background-color:rgb(243, 199, 23);
+    color: white;
+    padding: 10px;
+    margin-top:200px;
+}
+
+.year-con{
+    padding-top: 600px;
+}
+.main-body-content{
+    color: blueviolet;
+    width: 30px;
+    height: auto;
+
+}
+.margin-div{
+    margin: 40px;
+}
+.succss {
+    text-align: center;
+    margin: 80px;
+    padding: 20px;
+    border: 1px solid coral;
+}
+.succss-con{
+    display: flex;
+
+}
+.succss p{
+text-align: center;
+padding: 0;
+margin: 0;
+}
+.succss h3{
+padding: 0;
+margin: 0;
+}
+.Sponspors-con{
+    text-align: center;
+}
+.Sponspors-con p{
+    text-align: center;
+    padding:0 400px;
+}
+.sponspors-img-con{
+    text-align: center;
+    margin: 80px;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    background-color: bisque;
+}
+.orange-tex{
+    color: #FF900D;
+}
+.dark-text{
+   font-weight: bolder; 
+}
+.light-text{
+color: rgb(113, 120, 120);
+}
+.cradet-by{
+    text-align: center;
+    margin: 40px;
+    background-color: #FF900D;
+    padding: 10px;
+}
+
